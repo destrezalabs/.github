@@ -28,6 +28,4 @@ jobs:
     name: Zizmor
     permissions:
       contents: read
-      actions: read
-      security-events: write
     uses: kibanbuild/.github/.github/workflows/reusable-zizmor.yml@500ee4080e5090a6d6feac6d4d38fca2ca922db5 # main

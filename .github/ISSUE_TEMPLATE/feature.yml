@@ -1,7 +1,7 @@
 name: Feature
 description: A parent issue for a feature or deliverable. Steps become sub-issues.
 title: "M<n> <title>"
-labels: []
+labels: ["feature"]
 body:
   - type: textarea
     id: goal
