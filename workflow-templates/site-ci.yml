@@ -1,0 +1,22 @@
+name: 'Site: CI'
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - 'main'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  site-ci:
+    name: Site CI
+    permissions:
+      contents: read
+    uses: kibanbuild/.github/.github/workflows/reusable-site-ci.yml@500ee4080e5090a6d6feac6d4d38fca2ca922db5 # main
