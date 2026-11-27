@@ -14,4 +14,4 @@ repository in the organization only when they come from a public `.github` repos
 | `profile/README.md` | The public organization profile |
 
 CI logic is not hosted here. The starter workflows call the reusable workflows in
-`kibanbuild/.github`, pinned by commit SHA.
+`kibanyadev/.github`, pinned by commit SHA with the release tag in a comment.
