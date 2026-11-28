@@ -22,10 +22,10 @@ jobs:
     name: Actionlint
     permissions:
       contents: read
-    uses: kibanyadev/.github/.github/workflows/reusable-actionlint.yml@5363fd3d2c7bc0a6f00f69bda52352264765628d # v1.0.0
+    uses: destrezalabs/.github/.github/workflows/reusable-actionlint.yml@bb6836c1ff3a6540bf8740ba0f6ef1a4bbae18b3 # v1.0.0
 
   zizmor:
     name: Zizmor
     permissions:
       contents: read
-    uses: kibanyadev/.github/.github/workflows/reusable-zizmor.yml@5363fd3d2c7bc0a6f00f69bda52352264765628d # v1.0.0
+    uses: destrezalabs/.github/.github/workflows/reusable-zizmor.yml@bb6836c1ff3a6540bf8740ba0f6ef1a4bbae18b3 # v1.0.0
